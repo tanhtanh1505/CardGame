@@ -1,0 +1,10 @@
+﻿  Card.cpp
+  CardGame.cpp
+  Character.cpp
+  DeckOfCards.cpp
+D:\C++\CardGame\DeckOfCards.cpp(23,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Game.cpp
+  GameObject.cpp
+  TextureManager.cpp
+  Generating Code...
+  CardGame.vcxproj -> D:\C++\CardGame\Debug\CardGame.exe

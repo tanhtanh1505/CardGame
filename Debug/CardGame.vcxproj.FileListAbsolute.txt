@@ -1,0 +1,2 @@
+D:\C++\CardGame\Debug\CardGame.exe
+D:\C++\CardGame\Debug\CardGame.pdb
