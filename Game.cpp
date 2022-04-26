@@ -38,17 +38,17 @@ void Game::init(const char *title, int x, int y, int w, int h, bool fullscreen)
     
 }
 
-void Game::handleEvents()
+void Game::handleEvents(SDL_Event event)
 {
-    SDL_Event event;
-    SDL_PollEvent(&event);
-    switch (event.type)
-    {
-    case SDL_QUIT:
-        isRunning = false;
-        break;
-    default:
-        break;
+    while (SDL_PollEvent(&event) != 0) {
+        switch (event.type)
+        {
+        case SDL_QUIT:
+            isRunning = false;
+            break;
+        default:
+            break;
+        }
     }
 }
 

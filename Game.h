@@ -14,7 +14,7 @@ public:
     
     void init(const char* title, int x, int y, int w, int h, bool fullscreen);
     
-    void handleEvents();
+    void handleEvents(SDL_Event event);
     void update();
     void render();
     void clean();

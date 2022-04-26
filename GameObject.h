@@ -22,12 +22,15 @@ public:
         destRect.x = x;
         destRect.y = y;
     }
+    SDL_Rect getRect() { return destRect; }
+    bool isClicked(SDL_Event event);
     int x;
     int y;
     ~GameObject();
 
     
 protected:
+    bool inSide = false;
     SDL_Texture* objTexture;
     SDL_Rect rect;
     SDL_Rect srcRect, destRect;
